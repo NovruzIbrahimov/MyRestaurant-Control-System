@@ -1,0 +1,23 @@
+.orders-container {
+  padding: 20px;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.status-badge.hazırlanır {
+  background-color: #f39c12; 
+}
+
+.status-badge.hazır {
+  background-color: #27ae60;
+}
+
+.status-badge.çatdırıldı {
+  background-color: #2980b9;
+}

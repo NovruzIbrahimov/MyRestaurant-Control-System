@@ -1,0 +1,14 @@
+.header {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger {
+  font-size: 1.5rem;
+}

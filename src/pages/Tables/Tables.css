@@ -1,0 +1,24 @@
+.tables-container {
+  padding: 20px;
+}
+
+.table-card {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.2s ease;
+}
+
+.table-card:hover {
+  transform: scale(1.05);
+}
+
+.table-card.occupied {
+  background-color: #e74c3c; /* qırmızı - dolu */
+}
+
+.table-card.free {
+  background-color: #2ecc71; /* yaşıl - boş */
+}

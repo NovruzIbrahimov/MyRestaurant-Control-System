@@ -1,0 +1,15 @@
+.clock-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.clock-time {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.clock-date {
+  font-size: 16px;
+  color: #555;
+}

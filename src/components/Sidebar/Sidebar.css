@@ -1,0 +1,54 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.sidebar-logo {
+  font-size: 1.5rem;
+}
+
+.sidebar-links {
+  flex: 1;
+}
+
+.sidebar-link {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.sidebar-link:hover {
+  background-color: #374151;
+}
+
+.sidebar-footer button {
+  background-color: #ef4444;
+  border: none;
+  transition: background 0.2s;
+}
+
+.sidebar-footer button:hover {
+  background-color: #dc2626;
+}
+
+/* Mobile Sidebar */
+.sidebar-mobile {
+  animation: slideIn 0.3s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 425px) {
+  .sidebar-footer {
+    margin-top: -15px !important;
+  }
+}
