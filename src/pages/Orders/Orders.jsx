@@ -20,12 +20,12 @@ function Orders() {
           <tbody>
             {orders.map((order) => (
               <tr key={order.id}>
-                <td>{order.id}</td>
-                <td>{order.table}</td>
-                <td>{order.item}</td>
-                <td>{order.qty}</td>
-                <td>{order.price}</td>
-                <td>
+                <td data-label="#">{order.id}</td>
+                <td data-label="Masa">{order.table}</td>
+                <td data-label="Yemək">{order.item}</td>
+                <td data-label="Miqdar">{order.qty}</td>
+                <td data-label="Qiymət (₼)">{order.price}</td>
+                <td data-label="Status">
                   <span className={`status-badge ${order.status}`}>
                     {order.status}
                   </span>
